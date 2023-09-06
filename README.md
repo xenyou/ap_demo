@@ -22,5 +22,5 @@ mastodon.socialあたりにアカウントを作って検索してフォロー�
 
 投稿。fromはフォローしたアカウント名に書き換えてください。
 ```
-curl -X POST -H "content-type: application/json" -d '{"msg":"こんにちは",from:"account1"}' localhost:3000
+curl -X POST -H "content-type: application/json" -d '{"msg":"こんにちは","from":"account1"}' localhost:3000/exe/post
 ```
